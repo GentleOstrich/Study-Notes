@@ -1,6 +1,7 @@
 @echo off
 git add . && git commit -m "update" && git push
-echo push success
 echo=
+echo=
+echo push success!!
 pause
 exit
