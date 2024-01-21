@@ -10,7 +10,7 @@ git status | find "nothing to commit" > nul && (
 )
 
 
-git push && (
+git push | find "Everything up-to-date" > nul && (
 	echo=
         echo push success!!
 ) || (
