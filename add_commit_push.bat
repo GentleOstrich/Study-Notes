@@ -14,8 +14,8 @@ git push | find "main -> main" > nul && (
 	echo=
         echo push success!!
 ) || (
-        echo=
-        echo push failed.
+        (echo=
+        echo push failed.)
 )
 
 
