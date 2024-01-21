@@ -1,14 +1,12 @@
 @echo off
-git status | find "nothing to commit" > nul && (
-	echo=
-   	echo No changes to commit.
-) || (
-	git add . && git commit -m "update && (
-		echo=
-		echo commit success!!
-	)
-)
 
+git add . && git commit -m "update" && (
+	echo=
+	echo commit success!!
+) || (
+	echo=
+	echo No changes to commit.
+)
 
 git push && (
     echo=
@@ -17,7 +15,6 @@ git push && (
     echo=
     echo push failed.
 )
-
 
 pause
 exit
