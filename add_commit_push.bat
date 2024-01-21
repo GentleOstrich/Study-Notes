@@ -1,5 +1,7 @@
 @echo off
-git add . && git commit -m "update" && git push
+git add . 
+git commit -m "update" 
+git push
 echo=
 echo=
 echo push success!!
