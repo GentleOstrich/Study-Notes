@@ -9,6 +9,6 @@ git status | find "nothing to commit" > nul && (
         echo=
         echo push failed.
     )
-) 
+)
 pause
 exit
